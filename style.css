@@ -54,3 +54,16 @@ body {
 .botao:first-child {
     border-radius: 40px 40px 0 0;
 }
+
+.botoes {
+    display: block;
+    .botao ativo {
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--verde);
+    }
+}
+.abas-testos {
+    background-color: var(--testo-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
